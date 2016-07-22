@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin:0;
+	padding:0;
+	}
+body {
+	font-size:12px;
+	font-family:Tahoma;
+	/*background:#0053a0;*/
+	}
+#content, #content-02 {
+	border:1px #666 solid;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;
+	-webkit-border-radius:10px;
+	position:relative;
+	margin:auto;
+	margin-top:5%;
+	margin-bottom:2%;
+	width:800px;
+	background:white;	}
+#content-02 {
+	width:1000px;
+	}
+
+.listaDesplegable {
+	width:150px;
+	}
+.listaDesplegableShort {
+	width:80px;
+	}
+.ValCalc {
+	background:#e2efda;
+	}
+.ValCaplet {
+	background:#fce4d6;
+	}
+.input {
+	width:150px;
+	border:none;
+	text-align:center;
+	} 
+.input-02 {
+	width:100%;
+	}
+.edit {
+	width:100%;
+	border:none;
+	text-align:center;
+	}
+.texto01 {
+	font-size:0.8em;
+	}
+.btn {
+	position:relative;
+	background:#0053a0;
+	color:white;
+	border:none;
+	padding:5px;
+	border-radius:5px;
+	-o-border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	font-weight:bold;
+	cursor:pointer;
+	}
+.btnMenu {
+	display:block;
+	height:auto;
+	width:100px;
+	padding:20px;
+	border-radius:0px;
+	-o-border-radius:0px;
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+	text-decoration:none;
+	margin-bottom:10px;
+	}
+.btn:hover {
+	background:#0083c6;
+	}
+.ajusteTD {
+	height:30px;
+	}
+	
+.popUp {
+	position:fixed;
+	width:430px;
+	height:200px;
+	margin-left:-215px;
+	margin-top:-100px;
+	border:1px #666 solid;
+	left:50%;
+	top:50%;
+	background:white;
+	display:none;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;
+	-webkit-border-radius:10px;
+	}
+.popUp h2 {
+	position:absolute;
+	top:0px;
+	padding:10px;
+	width:410px;
+	border-bottom:1px #666 solid;
+	text-align:center;
+	font-size:2em;
+	color:#666;
+}
+.popUp p {
+    margin: 100px 0px 10px 10px;
+    text-align: center;
+}
+.cerrar {
+	position:absolute;
+	right:10px;
+	top:10px;
+	text-align:center;
+	color:#FFF;
+	background:red;
+	padding:2px 5px;
+	text-decoration:none;
+	border-radius:100px;
+	-moz-border-radius:100px;
+	-o-border-radius:100px;
+	-webkit-border-radius:100px;
+	z-index:999;
+	}
+.numeritos {
+	/*color:#90a74c;*/
+	color:red;
+	font-weight:bold;
+	font-size:0.7em;
+	}
+	
+.leyenda_right {
+  margin: 20px;
+  font-style:bold;
+  color:#000000;
+  font-size:12px;
+  text-align:right;
+	}	
+	
+.leyenda_center {
+  margin: 15px;
+  font-style:bold;
+  color:#000000;
+  font-size:12px;
+  text-align:center;
+	}		
+	
+h1 {
+  margin: 15px;
+  font-style:bold;
+  color:#000000;
+  font-size:14px;
+  text-align:center;
+}	
+td h1 {
+	color:#0053a0;
+	}
+p {
+  margin: 30px;
+  font-style:bold;
+  color:#000000;
+  font-size:16px;
+  text-align:center;
+}
+.registros {
+	width:100%;
+	overflow:auto;
+	height:300px;
+	}
+.tablaDatos {
+	float:left;
+	width:300px;
+	margin:0px 15px;
+	}
