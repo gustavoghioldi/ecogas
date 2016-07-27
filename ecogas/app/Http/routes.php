@@ -15,3 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::resource("tweets","TweetController");
+Route::resource("categorias","CategoriumController");
+Route::resource("zona_tarifarias","ZonaTarifariumController");
+Route::get("/prueba", function(){
+	return view("tweets.create");
+	});
